@@ -1,0 +1,69 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#nav-bar
+{
+	background: radial-gradient(rgb(175, 35, 30), rgb(175, 42, 18));
+	position: inherit;
+	top:0;
+	z-index:10;
+	float: inherit;
+}
+.navbar
+{
+	padding: 0 !important;
+}
+
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+color: white !important;
+font-weight: bolder;
+float:right;
+text-align:left;
+}
+
+.navbar-brand{
+    font-size: 1.5rem;
+    color: yellow !important;
+    
+}
+
+.nav-link{
+    float: right;
+    color: #0a4d9e!important;
+    
+}
+
+.nav-link:hover{
+    background: linear-gradient(rgb(4, 170, 247), rgb(4, 13, 99));
+}
+/* navbar css ends here  */
+#main
+{
+	text-align: center;
+    background-image: url(Images/costumerbackground.jpg);
+}
+
+.my-info{
+    padding: 2rem 5rem;
+}
+
+.btn-info{
+    background: radial-gradient(rgb(175, 35, 30), rgb(175, 42, 18));
+    padding: 1rem 1.2rem;
+    color: white!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.btn-info:hover{
+    background: linear-gradient(yellow, green) !important;
+}
